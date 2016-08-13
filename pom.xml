@@ -12,7 +12,8 @@
 	<modules>
         <module>server</module>
 		<module>client</module>
-	</modules>
+        <module>common</module>
+    </modules>
 
     <properties>
         <!-- Generic properties -->
@@ -136,9 +137,6 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>3.0.1</version>
-                    <configuration>
-                        <outputEncoding>${project.build.sourceEncoding}</outputEncoding>
-                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
